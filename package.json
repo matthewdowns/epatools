@@ -1,0 +1,46 @@
+{
+  "name": "epatools",
+  "version": "0.0.0",
+  "description": "JavaScript library for using EPANET and EPASWMM.",
+  "keywords": [
+    "epanet",
+    "epaswmm"
+  ],
+  "homepage": "https://github.com/matthewdowns/epatools#readme",
+  "bugs": {
+    "url": "https://github.com/matthewdowns/epatools/issues"
+  },
+  "license": "GPL-3.0",
+  "author": "Matthew Downs <matthew.downsc@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewdowns/epatools.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "rimraf dist && tsc -p . && node ./scripts/postbuild.js",
+    "test": "jest",
+    "docs": "typedoc"
+  },
+  "dependencies": {
+    "proj4": "^2.7.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
+    "@types/proj4": "^2.5.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.6",
+    "typedoc": "^0.21.6",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=14 <=16"
+  },
+  "private": true
+}
