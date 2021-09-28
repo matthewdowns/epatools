@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
     "eslint": "^7.32.0",
-    "jest": "^26.6.3",
+    "jest": "^27.2.3",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.5.6",
     "typedoc": "^0.21.6",
